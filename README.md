@@ -6,12 +6,14 @@ I've been writing embedded software since 2017, currently at **compact electric 
 
 I like problems that touch both sides of the wire: a microcontroller measuring something real, and a decent interface on top of it that someone can actually use.
 
+Most of my day-to-day work lives in private repos at compact electric — the contribution graph here only shows the tip of it.
+
 ---
 
 ## 🔧 What I work with
 
 **Embedded**
-`C` `C++` `STM32` `ARM Cortex-M` `FreeRTOS` `CAN / CANopen` `Modbus` `UART / SPI / I²C` `AUTOSAR` `KiCad`
+`C` `C++` `STM32` `ARM Cortex-M` `FreeRTOS` `CAN / CANopen` `Modbus` `UART / SPI / I²C` `AUTOSAR`
 
 **Backend & Tooling**
 `Node.js` `gRPC / Protobuf` `Python` `SQL` `Docker` `Linux`
@@ -22,6 +24,9 @@ I like problems that touch both sides of the wire: a microcontroller measuring s
 **Workflow**
 `Git` `CMake` `GitHub Actions` `JTAG/SWD debugging` `Oscilloscope + logic analyzer`
 
+**Testing & Quality**
+`GoogleTest` `libFuzzer` `ASan/UBSan` `CodeQL` `vcpkg`
+
 ---
 
 ## 📌 Projects
@@ -29,7 +34,7 @@ I like problems that touch both sides of the wire: a microcontroller measuring s
 | Project | What it is |
 | --- | --- |
 | [**CanUsbTransceiver**](https://github.com/kurta999/CanUsbTransceiver) | A cheap CAN ↔ USB transceiver — hardware and firmware |
-| [**WindowsAddon**](https://github.com/kurta999/WindowsAddon) | A swiss army knife of utilities I built for myself, in C++ |
+| [**WindowsAddon**](https://github.com/kurta999/WindowsAddon) [![CI](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml/badge.svg)](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml) | Windows tray toolbox for automotive/embedded dev: CAN/UDS transceiver, Modbus master, macro engine, and QoL tools |
 | [**CDMRE_N**](https://github.com/kurta999/CDMRE_N) | English manual for compact electric's CDMRE & CDMRN — I wrote the firmware |
 | [**HunqzSimulator**](https://github.com/kurta999/HunqzSimulator) | Python side project |
 | [**YSF**](https://github.com/kurta999/YSF) | Server functions plugin for SA-MP (fork) |
@@ -57,6 +62,7 @@ If you have something that fits, get in touch.
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kiss-attila111/)
+[![Email](https://img.shields.io/badge/Email-nmsstulaj%40gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:nmsstulaj@gmail.com)
 
 ---
 
