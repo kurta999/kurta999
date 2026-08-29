@@ -13,16 +13,22 @@ Most of my day-to-day work lives in private repos at compact electric — the co
 ## 🔧 What I work with
 
 **Embedded**
-`C` `C++` `STM32` `ARM Cortex-M` `FreeRTOS` `CAN / CANopen` `Modbus` `UART / SPI / I²C` `AUTOSAR`
+`C` `C++20` `STM32` `ESP32` `AVR` `ARM Cortex-M` `FreeRTOS` `ThreadX` `HAL / LL` `Driver development` `CMSIS-DSP / FFT` `Bootloaders & FOTA` `MISRA C` `AUTOSAR`
+
+**Protocols & Comms**
+`CAN` `ISO-TP` `UDS` `SOME/IP` `Modbus` `RS485` `UART / SPI / I²C` `USB` `BLE` `LoRa` `Ethernet` `lwIP` `NetX Duo` `mDNS / DHCP` `MQTT` `WebSocket / REST` `TLS`
 
 **Backend & Tooling**
-`Node.js` `gRPC / Protobuf` `Python` `SQL` `Docker` `Linux`
+`Node.js` `gRPC / Protobuf` `Python` `Boost` `Asio` `SQL` `SQLite` `PostgreSQL` `Docker` `Linux` `Yocto` `Raspberry Pi`
 
 **Frontend & Desktop**
 `React` `TypeScript` `Qt` `wxWidgets`
 
 **Workflow**
-`Git` `CMake` `GitHub Actions` `JTAG/SWD debugging` `Oscilloscope + logic analyzer`
+`Git` `Gerrit` `CMake` `GitHub Actions` `Jenkins` `Doxygen` `JTAG/SWD debugging` `Oscilloscope + logic analyzer`
+
+**Design & Practices**
+`OOP` `SOLID` `DRY` `KISS` `Design patterns` `Data structures & algorithms` `Code reviews` `Mentoring`
 
 **Testing & Quality**
 `GoogleTest` `libFuzzer` `ASan/UBSan` `CodeQL` `vcpkg`
@@ -33,11 +39,35 @@ Most of my day-to-day work lives in private repos at compact electric — the co
 
 | Project | What it is |
 | --- | --- |
+| [**AIrQualitySensors**](https://github.com/kurta999/AIrQualitySensors) [![CI](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml/badge.svg)](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml) | STM32L476 air quality sensor hub — BME680, SCD30, VEML6070, TCS34725 and an HPMA115S0 particle sensor on FreeRTOS, ST7565 display, UART or ESP32 Wi-Fi uplink into WindowsAddon for SQLite logging and graphs |
 | [**CanUsbTransceiver**](https://github.com/kurta999/CanUsbTransceiver) | A cheap CAN ↔ USB transceiver — hardware and firmware |
 | [**WindowsAddon**](https://github.com/kurta999/WindowsAddon) [![CI](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml/badge.svg)](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml) | Windows tray toolbox for automotive/embedded dev: CAN/UDS transceiver, Modbus master, macro engine, and QoL tools |
 | [**CDMRE_N**](https://github.com/kurta999/CDMRE_N) | English manual for compact electric's CDMRE & CDMRN — I wrote the firmware |
 | [**HunqzSimulator**](https://github.com/kurta999/HunqzSimulator) | Python side project |
-| [**YSF**](https://github.com/kurta999/YSF) | Server functions plugin for SA-MP (fork) |
+| [**YSF**](https://github.com/kurta999/YSF) | Server functions plugin for SA-MP — I maintained it for years, then handed it over to [IS4Code](https://github.com/IS4Code) |
+
+---
+
+## 🏢 Experience
+
+**Software Engineer (Embedded & Full Stack)** · compact electric GmbH, Vienna · *2023 – present*
+Grid protection systems for power plant environments on STM32H5: real-time control logic, DSP, firmware and web-based configuration/monitoring. Two industrial products taken from concept to mass production. Currently leading a 3-phase waveform generator — STM32 firmware, Raspberry Pi backend (Node.js, gRPC, Modbus, Python), React frontend.
+
+**C++ Software Engineer** · GlobalLogic s.r.o., Žilina · *2021 – 2023*
+Automotive components in an AUTOSAR environment. Built a CAN simulation tool that let the team run client test cases without CANoe, and stabilized a legacy remote diagnostics codebase. SOME/IP, UDS, ISO-TP, Yocto, embedded Linux.
+
+**Embedded Software Engineer / Application Developer** · effman s.r.o., Dunajská Streda · *2017 – 2021*
+Intelligent waste water treatment systems, an indoor air quality sensor that went to market, reusable drivers (EEPROM, flash, SPI displays, ESP8266/ESP32, GSM, external ADCs), AVR → STM32 ports, and FFT-based acoustic monitoring of bee colonies with CMSIS-DSP.
+
+---
+
+## 🎮 Before all that: GTA San Andreas
+
+*2009 – 2016* — I ran a large SA-MP multiplayer server, and that's where I actually learned to program.
+
+It started with PAWN scripting and turned into C++ plugins: RakNet, UDP/TCP, binary bitstream serialization, real-time state sync between clients and server. Reverse engineering the game to add custom vehicles, weapon behavior and world interactions. Packet inspection to find cheats and exploits. Plus the unglamorous half — hosting, a web stack and forum, moderating, and keeping a community together.
+
+No paycheck, but it's the reason the rest of this page exists.
 
 ---
 
@@ -46,7 +76,7 @@ Most of my day-to-day work lives in private repos at compact electric — the co
 I take on small to mid-sized projects alongside my main role, fully remote:
 
 - **Embedded & electronics** — firmware, board bring-up, protocol work, prototyping
-- **Full-stack** — internal tools, dashboards, APIs, desktop apps
+- **Full-stack** — internal tools, dashboards, APIs, desktop apps, webpages, UI/UX
 - **Automation** — scripting, data pipelines, glue between systems that don't talk to each other
 
 If you have something that fits, get in touch.
