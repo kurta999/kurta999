@@ -39,11 +39,14 @@ Most of my day-to-day work lives in private repos at compact electric — the co
 
 | Project | What it is |
 | --- | --- |
-| [**AIrQualitySensors**](https://github.com/kurta999/AIrQualitySensors) [![CI](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml/badge.svg)](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml) | STM32L476 air quality sensor hub — BME680, SCD30, VEML6070, TCS34725 and an HPMA115S0 particle sensor on FreeRTOS, ST7565 display, UART or ESP32 Wi-Fi uplink into WindowsAddon for SQLite logging and graphs |
-| [**CanUsbTransceiver**](https://github.com/kurta999/CanUsbTransceiver) | A cheap CAN ↔ USB transceiver — hardware and firmware |
+| [**AirQualitySensors**](https://github.com/kurta999/AIrQualitySensors) [![CI](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml/badge.svg)](https://github.com/kurta999/AIrQualitySensors/actions/workflows/build.yml) | STM32L476 air quality sensor hub — BME680, SCD30, VEML6070, TCS34725 and an HPMA115S0 particle sensor on FreeRTOS, ST7565 display, UART or ESP32 Wi-Fi uplink into WindowsAddon for SQLite logging and graphs |
+| [**CanUsbTransceiver**](https://github.com/kurta999/CanUsbTransceiver) [![CI](https://github.com/kurta999/CanUsbTransceiver/actions/workflows/ci.yml/badge.svg)](https://github.com/kurta999/CanUsbTransceiver/actions/workflows/ci.yml) | A cheap CAN ↔ USB transceiver — hardware and firmware |
+| [**SpiToEthBridge**](https://github.com/kurta999/SpiToEthBridge) [![CI](https://github.com/kurta999/SpiToEthBridge/actions/workflows/build.yml/badge.svg)](https://github.com/kurta999/SpiToEthBridge/actions/workflows/build.yml) | STM32H563ZI firmware that bridges a slave SPI data stream to UDP/Ethernet (ThreadX + NetX Duo) for high-throughput, real-time bus debugging over the network |
 | [**WindowsAddon**](https://github.com/kurta999/WindowsAddon) [![CI](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml/badge.svg)](https://github.com/kurta999/WindowsAddon/actions/workflows/ci.yml) | Windows tray toolbox for automotive/embedded dev: CAN/UDS transceiver, Modbus master, macro engine, and QoL tools |
 | [**CDMRE_N**](https://github.com/kurta999/CDMRE_N) | English manual for compact electric's CDMRE & CDMRN — I wrote the firmware |
+| [**WortWerk**](https://github.com/kurta999/WortWerk) [![CI](https://github.com/kurta999/WortWerk/actions/workflows/android.yml/badge.svg)](https://github.com/kurta999/WortWerk/actions/workflows/android.yml) | Native Android app teaching basic German to Hungarian speakers — illustrated word cards, bilingual sentences, and matching exercises |
 | [**HunqzSimulator**](https://github.com/kurta999/HunqzSimulator) | Python side project |
+| [**MFR**](https://github.com/kurta999/MFR) | MaXXiMuM FreeRoam — a once-popular Hungarian SA-MP gamemode; I reconstructed the lost schema/sources so the ~67k-line codebase compiles again |
 | [**YSF**](https://github.com/kurta999/YSF) | Server functions plugin for SA-MP — I maintained it for years, then handed it over to [IS4Code](https://github.com/IS4Code) |
 
 ---
